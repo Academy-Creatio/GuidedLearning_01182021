@@ -1,0 +1,29 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "76b9c335-5752-4af1-bd86-4cd7a0b2d5cf"
+        },
+        {
+          "SchemaColumnUId": "a5cca792-47dd-428a-83fb-5c92bdd97ff8",
+          "Value": "Kirill Krylov, CPA"
+        },
+        {
+          "SchemaColumnUId": "5c6ca10e-1180-4c1e-8a50-55a72ff9bdd4",
+          "Value": "e308b781-3c5b-4ecb-89ef-5c1ed4da488e",
+          "DisplayValue": "Our company"
+        },
+        {
+          "SchemaColumnUId": "dbf202ec-c444-479b-bcf4-d8e5b1863201",
+          "Value": "k.krylov@creatio.com"
+        },
+        {
+          "SchemaColumnUId": "8b680ac7-e46c-466c-b630-e5cb4da13a55",
+          "Value": "Technical Trainer"
+        }
+      ]
+    }
+  ]
+}
