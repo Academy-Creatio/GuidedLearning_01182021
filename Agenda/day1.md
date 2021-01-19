@@ -1,4 +1,4 @@
-#Day 1 (Jan 18, 2021)
+# Day 1 (Jan 18, 2021)
 
 - Configured creatio for development in [file system mode][wiki-file-system-mode]
 - Created [custom logger (GuidedLearningLogger)][wiki-logger] and used it in business process
