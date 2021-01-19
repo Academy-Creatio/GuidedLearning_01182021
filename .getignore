@@ -364,4 +364,3 @@ FodyWeavers.xsd
 # Terrasoft build files
 packages/
 Files/Bin/
-.vs/
