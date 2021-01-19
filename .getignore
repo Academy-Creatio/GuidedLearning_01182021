@@ -360,3 +360,8 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Terrasoft build files
+packages/
+Files/Bin/
+.vs/
