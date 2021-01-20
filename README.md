@@ -2,8 +2,8 @@
 
 [Day 1][d1-agenda] - Environment set up
 [Day 2][d2-agenda] - Working with Data
+[Day 3][d3-agenda] - Working with Data Part 2
 <!-- 
-[Day 3][d3-agenda] - Environment set up
 [Day 4][d4-agenda] - Environment set up
 [Day 5][d5-agenda] - Environment set up
 [Day 6][d6-agenda] - Environment set up
@@ -19,6 +19,7 @@
 |:--:|:----------: |:---------: |
 |1|[Video][d1v]|[Chat][d1c]|
 |2|[Video][d2v]||
+|3|[Video][d3v]|[Chat][d3c]|
 
 
 
@@ -29,7 +30,8 @@
 
 [d2v]: https://creatio-global.zoom.us/rec/play/dO1g1Ku4qq6LKaUxmPys_u2NuPcXRCTn8xYaMgXCc0RUmrOe-ZVkdrgeZsKKCJbDvQjKfxjgqbELMzjR.nnIr1Drl5sWsoQUk
 
-
+[d3v]:https://creatio-global.zoom.us/rec/play/OSU3nH_6heZgIRyVvc3J4XmmJ9rCy2TxJdv84rwAg1NFYCn2UHgsfBrHfx8ff1DaP44030RNkDRif0mF.bTmtLg7mqIGtb4A6
+[d3c]:https://creatio-global.zoom.us/rec/play/OI4tSoVjKoN2GXYiTKAX44qENlZAGWMmRSX3dNM7mY7eZwSyhgfw1qmbSkftjmWmu_Ypfdbnj0R8yIyw.jnYfJxWZhET6MJkM
 
 [d1-agenda]:Agenda/day1.md
 [d2-agenda]:Agenda/day2.md

@@ -6,6 +6,7 @@
 
 
 
+
 [project]:https://github.com/Academy-Creatio/WorkshopWorkingWithData_2020-08-11
 
 [academy-working_with_database]:https://academy.creatio.com/docs/developer/back-end_development/working_with_database/working_with_database
