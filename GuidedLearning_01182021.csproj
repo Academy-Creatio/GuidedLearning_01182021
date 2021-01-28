@@ -122,6 +122,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Files\EventListener\ContactEventListener.cs" />
+    <Compile Include="Files\MyBusinessLayer\BusinessLogic.cs" />
     <Compile Include="Files\WebServices\DemoService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -137,6 +138,12 @@
   <ItemGroup>
     <None Include="descriptor.json" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GuidedLearningShared\GuidedLearningShared.csproj">
+      <Project>{898d3d9c-62f1-4e9d-ab44-0bb5287f601b}</Project>
+      <Name>GuidedLearningShared</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(TemplateBuilderTargets)" Condition="Exists('$(TemplateBuilderTargets)')" Label="TemplateBuilder" />

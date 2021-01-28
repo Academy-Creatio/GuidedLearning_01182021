@@ -1,7 +1,9 @@
-﻿using System;
+﻿using GuidedLearning_01182021.Files.MyBusinessLayer;
+using System;
 using System.ServiceModel;
 using System.ServiceModel.Activation;
 using System.ServiceModel.Web;
+using System.Threading;
 using Terrasoft.Core;
 using Terrasoft.Web.Common;
 
@@ -24,19 +26,24 @@ namespace GuidedLearning_01182021
 
 		#region Methods : REST
 		[OperationContract]
-		[WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped, ResponseFormat = WebMessageFormat.Json)]
-		public string PostMethodName(Guid bankLineId)
+		[WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest, ResponseFormat = WebMessageFormat.Json)]
+		public string PostMethodName(Guid entityId)
 		{
 			UserConnection userConnection = UserConnection ?? SystemUserConnection;
+			Thread.Sleep(2000);
 			return "Ok";
 		}
 
 		[OperationContract]
-		[WebInvoke(Method = "GET", RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped, ResponseFormat = WebMessageFormat.Json)]
-		public string GetMethodname(Guid bankLineId)
+		[WebInvoke(Method = "GET", RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped, 
+			ResponseFormat = WebMessageFormat.Json)]
+		public int GetMethodname(int a, int b)
 		{
-			UserConnection userConnection = UserConnection ?? SystemUserConnection;
-			return DateTime.Now.ToString("dd-MMM-yyyy HHmm:ss");
+			//UserConnection userConnection = UserConnection ?? SystemUserConnection;
+			var bl = new BusinessLogic();
+
+
+			return bl.AddNUmbers(a, b);
 		}
 
 		#endregion

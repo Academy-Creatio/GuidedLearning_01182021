@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.SubProcess1.Caption" Value="Contact Work DoStuff - For One Contact 1" />
+			<Item Name="BaseElements.SubProcess1.Parameters.ContactRecordId.Caption" Value="ContactRecordId" />
+			<Item Name="BaseElements.SubProcess1.Parameters.RecordId.Caption" Value="RecordId" />
+			<Item Name="BaseElements.SubProcess1.Parameters.RecordId.DisplayValue" Value="[#Lookup.Account.Ds.com#]" />
+			<Item Name="Caption" Value="Find Targets (Contact)" />
+			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
+			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
+			<Item Name="NotificationCaption.Caption" Value="Process instance caption" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#Process name#]" />
+		</Items>
+	</Group>
+</Resources>
