@@ -81,7 +81,7 @@ namespace GuidedLearning_01182021
 			
 			if(oldValue != newValue)
 			{
-				e.IsCanceled = true;
+				//e.IsCanceled = true;
 			}
 		}
 		public override void OnSaved(object sender, EntityAfterEventArgs e)

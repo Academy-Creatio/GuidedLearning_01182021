@@ -1,6 +1,12 @@
 define("ContactSectionV2", [], function() {
 	return {
 		entitySchemaName: "Contact",
+		messages: {
+			"SectionActionClicked": {
+				mode: this.Terrasoft.MessageMode.PTP,
+				direction: this.Terrasoft.MessageDirectionType.PUBLISH
+			}
+		},
 		attributes: {
 			"Account": {
 				lookupListConfig: {
@@ -23,6 +29,9 @@ define("ContactSectionV2", [], function() {
 					"Enabled": true
 				}));
 				return actionMenuItems;
+			},
+			sendMessageToPage: function(){
+				this.sandbox.publish("SectionActionClicked", "message body", ["THIS_IS_MY_TAG2"]);
 			},
 
 			showMessage: function(){
@@ -55,7 +64,7 @@ define("ContactSectionV2", [], function() {
                     // Bind the button header to the localizable string of the schema.
                     caption: "My Section Button",
                     // Bind the button click handler method.
-                    click: { bindTo: "showMessage" },
+                    click: { bindTo: "sendMessageToPage" },
                     // Binding the button availability property.
                     //enabled: { bindTo: "isAccountPrimaryContactSet" },
                     // Setting the location of the button.
